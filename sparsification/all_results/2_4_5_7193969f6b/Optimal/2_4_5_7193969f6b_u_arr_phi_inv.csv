@@ -1,0 +1,8 @@
+1,1,0,0,epsilon**(-2),epsilon**(-2),0,0
+0,-1,0,0,0,-1/epsilon**2,0,0
+0,0,-epsilon**3,epsilon**3,0,0,-epsilon,epsilon
+0,0,-epsilon**3,0,0,0,-epsilon,0
+0,0,0,0,epsilon**(-2),epsilon**(-2),0,-epsilon
+0,0,0,0,0,-1/epsilon**2,0,0
+0,0,0,0,0,0,-epsilon,0
+0,0,0,0,-1/epsilon**2,-1/epsilon**2,epsilon,0

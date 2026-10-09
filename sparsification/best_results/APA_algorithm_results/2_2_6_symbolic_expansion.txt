@@ -1,0 +1,41 @@
+APA symbolic expansion
+========================================================================
+stem: 2_2_6
+dimensions: (2 x 2) * (2 x 6)
+rank R: 20
+
+X =
+[
+  [x_1_1, x_1_2],
+  [x_2_1, x_2_2]
+]
+
+Y =
+[
+  [y_1_1, y_1_2, y_1_3, y_1_4, y_1_5, y_1_6],
+  [y_2_1, y_2_2, y_2_3, y_2_4, y_2_5, y_2_6]
+]
+
+Design-derived base product [epsilon^0] C_APA =
+[
+  [x_1_1*y_1_1 + x_1_2*y_2_1, x_1_1*y_1_2 + x_1_2*y_2_2, x_1_1*y_1_3 + x_1_2*y_2_3, x_1_1*y_1_4 + x_1_2*y_2_4, x_1_1*y_1_5 + x_1_2*y_2_5, x_1_1*y_1_6 + x_1_2*y_2_6],
+  [x_2_1*y_1_1 + x_2_2*y_2_1, x_2_1*y_1_2 + x_2_2*y_2_2, x_2_1*y_1_3 + x_2_2*y_2_3, x_2_1*y_1_4 + x_2_2*y_2_4, x_2_1*y_1_5 + x_2_2*y_2_5, x_2_1*y_1_6 + x_2_2*y_2_6]
+]
+
+CORRECTNESS CHECK: PASS ([epsilon^0] C_APA == X*Y)
+
+C_APA(epsilon) = C_design + sum_{p in Z} epsilon^p D_p, where C_design := [epsilon^0] C_APA = X*Y (verified independently)
+Nonzero residual powers: 3, 4
+
+D_3 =
+[
+  [0, 0, 0, 0, 0, 0],
+  [0, 0, x_2_2*y_1_3 + x_2_2*y_2_5, x_2_2*y_1_4 + x_2_2*y_2_6, 0, 0]
+]
+
+D_4 =
+[
+  [0, 0, 0, 0, 0, 0],
+  [-x_2_2*y_1_3 - x_2_2*y_2_5, -x_2_2*y_1_4 - x_2_2*y_2_6, 0, 0, 0, 0]
+]
+

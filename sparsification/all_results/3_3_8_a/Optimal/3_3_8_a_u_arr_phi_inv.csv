@@ -1,0 +1,9 @@
+epsilon**(-2),epsilon**(-2),0,epsilon**(-2),epsilon**(-2),0,4/(13*epsilon**5),4/(13*epsilon**5),0
+-2/epsilon**2,-2/epsilon**2,0,0,0,0,0,0,0
+epsilon**(-2),epsilon**(-2),0,0,0,0,-1/epsilon**5,-1/epsilon**5,0
+epsilon**(-2),epsilon**(-2),-epsilon,epsilon**(-2),epsilon**(-2),-epsilon,4/(13*epsilon**5),4/(13*epsilon**5),-4/(13*epsilon**2)
+-1/epsilon**2,-1/epsilon**2,3*epsilon,-1/epsilon**2,-1/epsilon**2,epsilon,-4/(13*epsilon**5),-4/(13*epsilon**5),-9/(13*epsilon**2)
+3/(2*epsilon**2),1/(2*epsilon**2),epsilon/2,0,0,0,0,0,0
+epsilon**(-2),-1/epsilon**2,epsilon,1/(2*epsilon**2),-1/(2*epsilon**2),epsilon/2,-9/(26*epsilon**5),9/(26*epsilon**5),-9/(26*epsilon**2)
+0,0,epsilon,0,0,0,0,0,0
+2/epsilon**2,-2/epsilon**2,2*epsilon,2/epsilon**2,-2/epsilon**2,2*epsilon,8/(13*epsilon**5),-8/(13*epsilon**5),8/(13*epsilon**2)

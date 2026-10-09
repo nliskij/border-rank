@@ -1,0 +1,9 @@
+1/(2*epsilon**2),-1/(2*epsilon**2),-3*epsilon/4,1/(2*epsilon**2),-1/(2*epsilon**2),-epsilon/4,-2/epsilon**5,2/epsilon**5,3/(2*epsilon**2)
+-1/epsilon**2,1/(2*epsilon**2),3*epsilon/2,-1/epsilon**2,epsilon**(-2),epsilon/2,6/epsilon**5,-5/epsilon**5,-3/epsilon**2
+0,0,-6*epsilon,0,0,-2*epsilon,0,0,12/epsilon**2
+0,0,-6*epsilon,0,-1/epsilon**2,-2*epsilon,0,4/epsilon**5,12/epsilon**2
+0,-1/epsilon**2,0,0,0,0,0,0,0
+2/epsilon**2,-2/epsilon**2,-3*epsilon,2/epsilon**2,-2/epsilon**2,-epsilon,-12/epsilon**5,12/epsilon**5,6/epsilon**2
+0,0,-3*epsilon,0,0,0,0,0,2/epsilon**2
+0,0,2*epsilon,0,0,0,0,0,0
+-4/epsilon**2,4/epsilon**2,3*epsilon,-2/epsilon**2,2/epsilon**2,epsilon,8/epsilon**5,-8/epsilon**5,-6/epsilon**2
