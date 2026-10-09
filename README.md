@@ -1,6 +1,12 @@
-# Verified border-rank cases
+# APA Matrix Multiplication Algorithms 
 
-Cases are grouped by the canonical nondecreasing dimension triple.  Each leaf
+This repository contains (symbolic) encoding matrices for several new arbitrary precision approximate (APA) matrix multiplication algorithms. These we discovered through a novel search algorithm, which we also include code for. For further background, see the paper
+
+I. Dumitiru, O. Holtz, A. Hsu, N. Liskij, Y. Moran, R. Schneider, O. Schwartz, and S. Yuan. Fast and Stable Arbitrary Precision Approximate Matrix Multiplication. To appear.
+
+# How to use this repository
+
+Schemes are grouped by the canonical nondecreasing dimension triple.  Each leaf
 directory contains exactly:
 
 - `decomposition.exp`: an exact rank decomposition of `Tr(ABC)`;
@@ -53,10 +59,10 @@ so this checks simultaneous vanishing rather than separate nilpotence.
 | (2,3,3) | 16 | 1 | 15 | 14 | 1 |
 | (2,3,5) | 26 | 2 | 24 | 23 | 1 |
 | (2,3,6) | 30 | 1 | 29 | 28 | 1 |
-| (2,3,7) | 35 | 1 | 34 | 32 | 2 |
+| (2,3,7) | 35 | 1 | 34 | 33 | 1 |
 | (2,4,4) | 26 | 1 | 25 | 24 | 1 |
-| (2,4,5) | 33 | 2 | 31 | 30 | 1 |
-| (2,4,6) | 39 | 2 | 37 | 36 | 1 |
+| (2,4,5) | 33 | 2 | 31 | 32 | -1 |
+| (2,4,6) | 39 | 2 | 37 | 37 | 0|
 | (2,5,5) | 40 | 1 | 39 | 39 | 0 |
 | (3,3,3) | 23 | 2 | 21 | 20 | 1 |
 | (3,3,4) | 29 | 2 | 27 | 27 | 0 |
@@ -66,3 +72,5 @@ so this checks simultaneous vanishing rather than separate nilpotence.
 | (3,4,5) | 48 | 2 | 46 | 45 | 1 |
 | (3,5,6) | 68 | 1 | 67 | 67 | 0 |
 | (3,6,8) | 108 | 1 | 107 | 106 | 1 |
+
+Bounds from the literature are taken from: A. V. Smirnov. The Bilinear Complexity and Practical Algorithms for Matrix Multiplication. _Computational Mathematics and Mathematical Physics_ (2013).
