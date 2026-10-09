@@ -1,0 +1,1 @@
+Matrix dimensions are fixed at compile time. These can be passed to make, e.g. ```make M=2 N=3 P=4```, which creates an executable ```bin/flipwalk234```. The executable expects at least one command line argument for the number of steps.
